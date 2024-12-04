@@ -4,15 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-faiss-cpu = "*"
 flask = "*"
-openai = "*"
-transformers = "*"
+faiss-cpu = "*"
 torch = "*"
 torchvision = "*"
 torchaudio = "*"
+openai = "*"
+transformers = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.9"

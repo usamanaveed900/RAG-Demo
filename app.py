@@ -28,16 +28,20 @@ class RAGApp:
                 nav {
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
-                    padding: 10px 20px;
+                    /* justify-content: space-between; */
+                    /* padding: 5px 10px; */
+                    padding-top: 5px;
+                    padding-right: 15px;
+                    padding-bottom: 5px;
+                    padding-left: 10px;
                     background-color: #007bff;
                     color: white;
                 }
                 nav img {
-                    height: 40px;
+                    height: 60px;
                 }
                 nav .title {
-                    font-size: 1.5em;
+                    font-size: 1em;
                     font-weight: bold;
                 }
 
@@ -51,6 +55,10 @@ class RAGApp:
                     border-radius: 8px;
                 }
                 h1 {
+                    text-align: center;
+                    color: #333;
+                }
+                p {
                     text-align: center;
                     color: #333;
                 }
@@ -101,7 +109,8 @@ class RAGApp:
                 <div class="title">RAG Demo</div>
             </nav>
             <div class="container">
-                <h1>Interactive RAG Chatbot</h1>
+                <h1>Chatbot</h1>
+                <p>Retrieval-Augmented Generation - Demo</p>
                 <form method="POST">
                     <input type="text" id="query" name="query" placeholder="Enter your query here..." required>
                     <button type="submit">Ask</button>

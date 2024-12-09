@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     # 2. Initialize components
     retriever = Retriever(documents)
-    generator = Generator(openai_key="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")  # Replace with your OpenAI API key
+    generator = Generator(openai_key="Replace with ypur key")  # Replace with your OpenAI API key
 
     # 3. Create RAG chatbot
     chatbot = RAGChatbot(retriever, generator)
